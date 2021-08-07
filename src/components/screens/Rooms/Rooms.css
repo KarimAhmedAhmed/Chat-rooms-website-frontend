@@ -1,0 +1,129 @@
+/* html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .joinOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #1A1A1D;
+  }
+  
+  .joinInnerContainer {
+    width: 20%;
+  }
+  
+  .joinInput {
+    border-radius: 0;
+    padding: 15px 20px;
+    width: 100%;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+  
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #2979FF;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  } */
+
+
+  .chatslist{
+    /* margin-left: a; */
+    /* display: flex; */
+    justify-content: left;
+    padding: 0;
+    /* height: 100vh; */
+    width: auto;
+    
+   
+  }
+  .chatslistinner{
+    width: 20vw;
+  }
+
+  .searchinput {
+    background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  /* margin: 4px 2px; */
+  cursor:auto;
+  border-radius: 16px;
+  width: 13vw;
+  }
+  
+  /* * {
+    box-sizing: border-box;
+  } */
+
+  /* //card  */
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 2%;
+    height: 5vh;
+    
+    /* width: 20%; */
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 5px 0px 0px 5px;
+    width: 100%;
+    height: 100%;
+    /* width: 150%; */
+  }
